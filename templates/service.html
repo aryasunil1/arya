@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Makayiram</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="service.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>MAKAYIRAM| <span class="highlight">Reservations</span></h1> 
+            </div>  
+            <nav>
+                <ul>
+                    <li><a href="index.html">Makayiram</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="cuisine">Cuisine</a></li>
+                    <li class="current"><a href="service">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="show">
+            <div class="container">
+                <p>Make Reservations</p>
+            </div>         
+        </section>
+    <section id="image">
+        <div class="box">
+            <img src='../static/Image/125.jpg'> 
+            <img src='../static/Image/126.jpg'>     
+        </div>
+    </section>
+    <section id="detail">
+         <div class="container">
+            <h1>Reservations</h1>
+            <p>To make reservations, fill in. . .</p><br>
+            <form>
+                <h3>Name</h3>
+                <input type="text"  placeholder="Enter name" id="name"><br>
+                <label id="label"></label>
+                <onclick="show()"></onclick>
+
+
+                <h3>Email Address</h3>
+                <input type="email" placeholder="Enter email id" id="email"><br><br>
+                <label id="label1"></label>
+                <onclick="show()"></onclick>
+
+                <h3>Date for reservation</h3>
+                <input type="date" placeholder="Enter date for reservation" id="date"><br><br>
+                <label id="label2"></label>
+                <onclick="show()"></onclick>
+
+
+                <h3>Mobile Number</h3>
+                <input type="number" placeholder="Enter Mobile Number" id="mob"><br><br>
+                <label id="label3"></label><br>
+                <onclick="show()"></onclick>
+                <input type="button" id="button" value="Submit" onclick="show()"><br><br>
+             </form>
+        </div>
+    </section>
+ <footer>
+        <h3>MAKAYIRAM</h3>
+</footer>
+    
+</body>
+</html>
